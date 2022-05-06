@@ -1,0 +1,45 @@
+{
+    "lwc": { "modules": [
+        { "dir": "$rootDir/src/modules" },
+        { "npm": "lightning-base-components" }
+        ] },
+    "routes": [
+        {
+            "id": "index",
+            "path": "/",
+            "rootComponent": "lwc/app"
+        },
+        {
+            "id": "app2",
+            "path": "/app2",
+            "rootComponent": "lwc/app2"
+        },
+        {
+            "id": "hello",
+            "path": "/hello",
+            "rootComponent": "lwc/hello"
+        },
+        {
+            "id": "404",
+            "path": "/404",
+            "rootComponent": "lwc/404"
+        },
+        {
+            "id": "500",
+            "path": "/500",
+            "rootComponent": "lwc/500"
+        }
+    ],
+    "errorRoutes": [
+        {
+            "id": "not_found",
+            "status": 404,
+            "rootComponent": "lwc/404"
+        },
+        {
+            "id": "server_error",
+            "status": 500,
+            "contentTemplate": "lwc/500"
+        }
+    ]
+}
