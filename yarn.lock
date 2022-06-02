@@ -449,6 +449,11 @@
   resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-2.5.8.tgz#e3626af73a59683e13761acd607af2b7ca063fa0"
   integrity sha512-LBDKvIeJZmSEKGA/fP/racGLAEh0RuuxVJFXxtbdlr4qqqc/J2esjYkbUZEBm44+Gqy4YHHSicbJPIQPzTr8Tg==
 
+"@lwc/synthetic-shadow@^1.0.0-alpha.2":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-1.18.0.tgz#75354c5c34e573dcbcf76fff925a131c5cbfaaf4"
+  integrity sha512-sRK41Dfze4DKywLkQFK//XmGaD0CJP0UvkH/E0RsKqqBR7iyssQe6YurWgL5qP4up3ZdXQpZNclT2ikDgVYA2w==
+
 "@lwc/template-compiler@2.5.8":
   version "2.5.8"
   resolved "https://registry.yarnpkg.com/@lwc/template-compiler/-/template-compiler-2.5.8.tgz#009739dba34e90e6e63faeabcfb252c657de2489"
@@ -2553,10 +2558,10 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lightning-base-components@^1.14.6-alpha:
-  version "1.14.6-alpha"
-  resolved "https://registry.yarnpkg.com/lightning-base-components/-/lightning-base-components-1.14.6-alpha.tgz#ff9009c0e595f4882400c4f722f757eadbaf514e"
-  integrity sha512-WGn9dVIQ60DmKD23fHO+s9wVmmIgAA3Bs6KxY5+Wr0/2Y5/DMLmx66pmQLJixONM6Go7m1wOVXM4K6nzHbCupw==
+lightning-base-components@^1.11.5-alpha:
+  version "1.11.5-alpha"
+  resolved "https://registry.yarnpkg.com/lightning-base-components/-/lightning-base-components-1.11.5-alpha.tgz#cd3b2c8dc4166b6c8d1ee19ac1eed0e75495ca17"
+  integrity sha512-1BwhHlpIiN5z9HKNjZIBV8D1FybY8R85F2vBSlt2Ylz9OaJ5i2RBFI2exS6i/J81lBrxZsTLgDazMCWi9zlIeA==
 
 line-column@~1.0.2:
   version "1.0.2"

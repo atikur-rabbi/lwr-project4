@@ -6,15 +6,17 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf __lwr_cache__",
+    "run": "node index",
     "dev": "lwr serve",
     "start": "lwr serve --mode prod",
     "start:compat": "lwr serve --mode compat",
     "start:prod-compat": "lwr serve --mode prod-compat"
   },
   "dependencies": {
-    "lightning-base-components": "^1.14.6-alpha",
+    "lightning-base-components": "^1.11.5-alpha",
     "lwc": "2.5.8",
-    "lwr": "0.6.5"
+    "lwr": "0.6.5",
+    "@lwc/synthetic-shadow": "^1.0.0-alpha.2"
   },
   "engines": {
     "node": ">=14.15.4 <17"

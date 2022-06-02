@@ -3,43 +3,36 @@
         { "dir": "$rootDir/src/modules" },
         { "npm": "lightning-base-components" }
         ] },
+    "assets": [
+            {
+                "alias": "assetsDir",
+                "dir": "$rootDir/src/assets",
+                "urlPath": "/assets"
+            }
+        ],
     "routes": [
         {
             "id": "index",
             "path": "/",
-            "rootComponent": "lwc/app"
-        },
-        {
-            "id": "app2",
-            "path": "/app2",
-            "rootComponent": "lwc/app2"
-        },
-        {
-            "id": "hello",
-            "path": "/hello",
-            "rootComponent": "lwc/hello"
-        },
-        {
-            "id": "404",
-            "path": "/404",
-            "rootComponent": "lwc/404"
-        },
-        {
-            "id": "500",
-            "path": "/500",
-            "rootComponent": "lwc/500"
+            "rootComponent": "pages/app",
+            "layoutTemplate": "$layoutsDir/main.html",
+            "bootstrap": {
+                "syntheticShadow": false
+            }
         }
     ],
     "errorRoutes": [
         {
             "id": "not_found",
             "status": 404,
-            "rootComponent": "lwc/404"
+            "rootComponent": "pages/404",
+            "layoutTemplate": "$layoutsDir/main.html"
         },
         {
             "id": "server_error",
             "status": 500,
-            "contentTemplate": "lwc/500"
+            "contentTemplate": "pages/500",
+            "layoutTemplate": "$layoutsDir/main.html"
         }
     ]
 }
